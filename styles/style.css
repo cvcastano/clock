@@ -1,0 +1,36 @@
+body {
+  background: #db3069;
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+.clock-stroke {
+  width: 11rem;
+  height: 11rem;
+  border: 0.2rem solid #005c69;
+  border-radius: 50%;
+  position: relative;
+  background-color: #4c3b4d;
+}
+.clock {
+  width: 10rem;
+  height: 10rem;
+  border: 0.5rem solid #ebebd3;
+  border-radius: 50%;
+  position: relative;
+}
+.clock-case {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.hand {
+  width: 50%;
+  height: 0.2rem;
+  background-color: #f5d547;
+  position: absolute;
+  top: 50%;
+}
