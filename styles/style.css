@@ -7,34 +7,24 @@ body {
   justify-content: center;
   font-size: 2rem;
 }
-/* .clock-stroke {
-  width: 11rem;
-  height: 11rem;
-  border: 0.2rem solid #005c69;
-  border-radius: 50%;
-  position: relative;
-
-} */
 .clock {
   width: 10rem;
   height: 10rem;
   border: 0.5rem solid #005c69;
   border-radius: 50%;
   position: relative;
-  padding: .5rem;
+  padding: 0.5rem;
   background-color: #4c3b4d;
 }
-
 .clock-case {
   position: relative;
   width: 100%;
   height: 100%;
   transform: translateY(-3px);
 }
-
 .hand {
   width: 50%;
-  height: 0.2rem;
+  height: 0.25rem;
   background-color: #f5d547;
   position: absolute;
   top: 50%;
@@ -43,4 +33,9 @@ body {
   transition: all 0.05s;
   transition-timing-function: cubic-bezier(1, 2.7, 0.5, 0.1);
 }
-
+.minute {
+  height: 0.2rem;
+}
+.second {
+  height: 0.1rem;
+}
