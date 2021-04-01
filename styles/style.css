@@ -7,30 +7,40 @@ body {
   justify-content: center;
   font-size: 2rem;
 }
-.clock-stroke {
+/* .clock-stroke {
   width: 11rem;
   height: 11rem;
   border: 0.2rem solid #005c69;
   border-radius: 50%;
   position: relative;
-  background-color: #4c3b4d;
-}
+
+} */
 .clock {
   width: 10rem;
   height: 10rem;
-  border: 0.5rem solid #ebebd3;
+  border: 0.5rem solid #005c69;
   border-radius: 50%;
   position: relative;
+  padding: .5rem;
+  background-color: #4c3b4d;
 }
+
 .clock-case {
   position: relative;
   width: 100%;
   height: 100%;
+  transform: translateY(-3px);
 }
+
 .hand {
   width: 50%;
   height: 0.2rem;
   background-color: #f5d547;
   position: absolute;
   top: 50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(1, 2.7, 0.5, 0.1);
 }
+
